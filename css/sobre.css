@@ -1,0 +1,72 @@
+/* CSS DO CONTEÚDO DA PÁGINA PRINCIPAL */
+.section-conteudo-sobre {
+    display: flex;
+    justify-content: center;  
+    flex-grow: 1;
+    margin:0;
+    padding:0; 
+}
+
+.conteudo-sobre-texto h1 {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.conteudo-sobre-texto p,.conteudo-sobre-texto ul li {
+    font-family: 'Open Sans';
+    color: #000000;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.conteudo-sobre-texto ul li{
+    margin-top:15px;
+}
+
+
+.conteudo-sobre-imagem img {
+    width:100%;
+}
+
+.btn-contato {
+    padding: 5px 40px;
+    border-radius: 5px;
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
+    cursor: pointer;
+}
+
+.btn-contato:hover{
+    background: rgb(204, 207, 254);
+    background: linear-gradient(90deg, rgb(183, 255, 199) 0%, rgb(122, 168, 255)100%);
+}
+
+.div-btn {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.div-btn a {
+    text-decoration: none;
+}
+
+.div-sub-paragrafo {
+    max-width: 30%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.div-sub-paragrafo p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.div-sub-paragrafo img {
+    position: absolute; 
+    left: 40%; 
+     
+}
+

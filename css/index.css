@@ -1,0 +1,54 @@
+/* CSS DO CONTEÚDO DA PÁGINA PRINCIPAL */
+.section-conteudo-home {
+    display: flex; 
+    flex-grow: 1;
+    margin-top: 30px;
+
+}
+
+.conteudo-home-texto {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.conteudo-home-texto h1 {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.conteudo-home-texto p {
+    font-family: 'Open Sans';
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.conteudo-home-imagem img {
+    height: 100%;
+}
+
+.btn-saiba-mais {
+    border: 0.5;
+    border-radius: 5px;
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgba(204,254,216,1) 0%, rgba(149,186,254,1) 100%);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    color:black !important;
+}
+
+.btn-saiba-mais:hover{
+    background: rgb(204, 207, 254);
+    background: linear-gradient(90deg, rgb(183, 255, 199) 0%, rgb(122, 168, 255)100%);
+}
+
+
+
+
+
+

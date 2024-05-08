@@ -1,0 +1,62 @@
+.form-signin {
+    max-width:300px;
+
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn-enviar{
+    width:100%;
+    color:rgb(255, 255, 255);
+
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgb(92, 255, 130) 0%, rgb(66, 132, 255) 100%);
+}
+
+#btn-enviar:hover{
+    background: rgb(204,254,216);
+    background: linear-gradient(90deg, rgb(60, 255, 105) 0%, rgb(46, 119, 255) 100%);
+}
+
+#btn-cadastrar{
+    width:100%;
+    margin:20px 0px 20px 0px;
+
+    background-color: grey;
+    color:white;
+}
+
+#btn-cadastrar:hover{
+    background-color: rgb(111, 111, 111);
+}
+
+#btn-voltar{
+    text-decoration: none;
+    color:grey;
+
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.campo-email{
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.campo-senha{
+    margin-top: -17px;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+
+.label-input::after{
+    background-color: transparent !important;
+}
+
+.form-floating:focus-within{
+    z-index: 1;
+}
