@@ -7,6 +7,11 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    background-image: url('./img/v2/countryside-field-sunny-day-countryside.jpg') !important;
+    background-size: cover; /* cobre toda a tela */
+    background-repeat: no-repeat; /* não repete a imagem */
+    background-position: center center; /* centraliza a imagem */
+
 }
 /* CSS DO CABEÇALHO DA PAGINA PRINCIPAL */
 .div_cabecalho {
