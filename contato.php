@@ -8,14 +8,16 @@
     <title>Conexão Solidária</title>
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/contato.css">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body>
-    <section class="section-formulario">
+<body style="height: 100vh;background-image: url('./img/v2/cute-fluffy-shepherd-dog-lying-green-grass-with-rocky-mountains-background.jpg') !important; background-size: cover; background-repeat: no-repeat; background-position: center center;">
+    <section class="section-formulario" style="width: 800px;">
         <div class="container">
             <form action="contato.php" method="POST">
-                <h1>FAÇA PARTE DESSA CONEXÃO</h1>
-                <P>"Junte-se a nós e faça parte da conexão que impulsiona o seu futuro profissional!"</P>
-                <div class="juncao-input-nome-email">
+                <h1 style="font-weight:bold;color:white">FAÇA PARTE DESSA CONEXÃO!</h1>
+                <div class="juncao-input-nome-email" style="margin-top:40px;">
                     <div class="input-single">
                         <input type="text" name="nome" id="nome-box" class="input" required>
                         <label for="nome-box">Nome completo</label>
@@ -38,7 +40,7 @@
 
                 <div class="btns">
                     <div id="btn-voltar">
-                        <a href="index_.php"><button type="button" class="btn-saiba-mais">Voltar</button></a>
+                        <a href="index.php"><button type="button" class="btn-saiba-mais">Voltar</button></a>
                     </div>
                     <div id="btn-enviar">
                         <input type="submit" name="submit" id="submit" value="Conectando-se">
@@ -47,6 +49,7 @@
             </form>
         </div>
     </section>
+</div>
 
     <script>
         //document.getElementById("btn-enviar").addEventListener("click", myFunction);  

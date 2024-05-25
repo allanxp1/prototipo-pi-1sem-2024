@@ -13,7 +13,8 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
-<body style="height: 100vh;background-image: url('./img/v2/countryside-field-sunny-day-countryside.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+<body style="height: 100vh;background-image: url('./img/v2/cute-fluffy-shepherd-dog-lying-green-grass-with-rocky-mountains-background.jpg') !important; background-size: cover; background-repeat: no-repeat; background-position: center center;">
+        <!--sidebar-->
         <div class="wrap_content d-flex" style="height:100%">
             <div class="d-flex flex-nowrap">
                 <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-white bg-light bg-gradient" style="width: 200px;">
@@ -23,25 +24,25 @@
                     <hr>
                     <ul class="nav nav-pills flex-column mb-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active" aria-current="page" style="background-color: #6F463C;">
+                        <a href="index.php" class="nav-link active" aria-current="page" style="background-color: #6F463C;">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
                         Home
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link text-black">
+                        <a href="ongs.html" class="nav-link text-black">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
                         Ongs
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link text-black">
+                        <a href="doacao.html" class="nav-link text-black">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
                         Doação
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link text-black">
+                        <a href="contato.php" class="nav-link text-black">
                         <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
                         Contato
                         </a>
@@ -61,7 +62,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--conteudo-->
             <main class="container" style="align-content: center;">
                 <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary" style="display: flex; align-items: flex-start;">
                     <div class="col-lg-6 px-0" style="max-width: 600px;">
